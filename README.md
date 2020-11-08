@@ -1,5 +1,6 @@
 # Nasif-s-Dank-Hotkeys
 ## Kept for archive purposes. I made this project in 2016.
+Original Post: https://forum.uifserver.net/index.php?topic=114968.msg1191729
 ![Main Image](http://i.imgur.com/KSRyVK6.png)
 <br>
 *Like hotkeys, but more awesome.*
@@ -17,7 +18,7 @@ Exactly how dank? Read on to find out.
 • Easy to use hotkeys. Why press CTRL + SHIFT + M when you can just press M?
 • Open source. You can edit it, add new things, change it to suit your needs.
 • Adds a whole new level of customization to SA-MP, pushing it that much closer to MTA.
-• Using SendInput as send method to ensure maximum reliability. [quote author=Autohotkey]In addition, they buffer any physical keyboard or mouse activity during the send, which prevents the user's keystrokes from being interspersed with those being sent.[/quote]
+• Using SendInput as send method to ensure maximum reliability. In addition, they buffer any physical keyboard or mouse activity during the send, which prevents the user's keystrokes from being interspersed with those being sent.
 • Ability to send commands on the fly without disrupting gameplay. You can still drive while toggling your GOs.
 And much more to come...
 
@@ -31,7 +32,9 @@ These are the current options that I have added just for showcasing. I will make
 ![Links](http://i.imgur.com/9oQ8l0E.png)
 <br>
 Program: https://www.mediafire.com/?4ao5rmmb4rh1z42
+<br>
 VirusTotal scan: https://www.virustotal.com/en/file/f639cb491d656fd6f18d37c919b7cc00c061a8cbca0bbbddd67d97e1ac26c081/analysis/1456474029/
+<br>
 Source Code: https://www.mediafire.com/?873o87xv19aoipp
 <br>
 ![Install](http://i.imgur.com/RwDELsA.png)
@@ -42,12 +45,16 @@ Put both the DankHotkeys.exe and SAMP.ahk files in any folder. Run DankHotkeys.e
 <br>
 Prerequisites: 
  - Autohotkey: https://autohotkey.com/download/ahk-install.exe
+ <br>
  - Notepad++ (optional but recommended): https://notepad-plus-plus.org/repository/6.x/6.9/npp.6.9.Installer.exe
+ <br>
  - Source (linked above)
+ <br>
 Put the source file where your SAMP.ahk file is and open it in Notepad or Notepad++
 
 You'll see a lot of segments, each related to their keys and commands. First we'll walk you through with editing one of the pre-set hotkeys and then we'll talk about adding new ones.
-Find which key you want to edit just by looking at the code. For this example, we're gonna be editing the key [b]4[/b] which toggles [b]GOs[/b]. We're gonna change the key to [b]P[/b] and the command to [b]/htele[/b].
+Find which key you want to edit just by looking at the code. For this example, we're gonna be editing the key **4** which toggles **GOs**. We're gonna change the key to **P** and the command to **/htele**.
+<br>
 ![alt-text](http://i.imgur.com/fVHw2Mp.png)
 <br>
 Just change the activation key (first one), then what to send when in chat (second one) and what to send when you're not in chat (third one) like so
@@ -59,7 +66,9 @@ Save it for now. We'll get to compiling later.
 Now let's talk about adding new commands. It's the same procedure. Just copy an old segment, paste it, and change the keys/commands.
 
 After you've saved the script, you'll need to compile it. Navigate to the Autohotkey installation folder and then to the Compiler folder and open the file called "Ahk2Exe". Then, open the source, set a destination and make sure you're using a 32 bit base file as shown in the image below.
+<br>
 ![Main Image](http://i.imgur.com/DDiRLk1.jpg[/img]
+<br>
 Then hit compile. You're done! You can now use the exe from the destination folder.
 
 ![alt-text](http://i.imgur.com/SUVY5Ql.png)
